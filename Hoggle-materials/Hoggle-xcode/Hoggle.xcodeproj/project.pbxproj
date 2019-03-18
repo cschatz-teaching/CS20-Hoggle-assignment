@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB996211182A011A00BD5135 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB996210182A011A00BD5135 /* main.cpp */; };
+		AB9D24361633188D000709BF /* hgraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB9D24341633188D000709BF /* hgraphics.cpp */; };
+		AB9D243916331986000709BF /* liblpchoggle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9D24371633195E000709BF /* liblpchoggle.a */; };
+		AB9D243B163319B6000709BF /* libX11.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9D243A163319B6000709BF /* libX11.6.dylib */; };
+		AB9D244A16331A31000709BF /* dice.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB9D244816331A31000709BF /* dice.txt */; };
+		AB9D244B16331A31000709BF /* lexicon.dat in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB9D244916331A31000709BF /* lexicon.dat */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB9D24231633178B000709BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				AB9D244A16331A31000709BF /* dice.txt in CopyFiles */,
+				AB9D244B16331A31000709BF /* lexicon.dat in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB996210182A011A00BD5135 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AB9D24251633178B000709BF /* Hoggle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hoggle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9D24341633188D000709BF /* hgraphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hgraphics.cpp; sourceTree = "<group>"; };
+		AB9D24351633188D000709BF /* hgraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hgraphics.h; sourceTree = "<group>"; };
+		AB9D24371633195E000709BF /* liblpchoggle.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblpchoggle.a; sourceTree = "<group>"; };
+		AB9D243A163319B6000709BF /* libX11.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libX11.6.dylib; path = /usr/X11/lib/libX11.6.dylib; sourceTree = "<absolute>"; };
+		AB9D243C163319F1000709BF /* bst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bst.h; path = include/bst.h; sourceTree = "<group>"; };
+		AB9D243D163319F1000709BF /* cmpfn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cmpfn.h; path = include/cmpfn.h; sourceTree = "<group>"; };
+		AB9D243E163319F1000709BF /* foreach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = foreach.h; path = include/foreach.h; sourceTree = "<group>"; };
+		AB9D243F163319F1000709BF /* grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = grid.h; path = include/grid.h; sourceTree = "<group>"; };
+		AB9D2440163319F1000709BF /* lexicon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lexicon.h; path = include/lexicon.h; sourceTree = "<group>"; };
+		AB9D2441163319F1000709BF /* lpclib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lpclib.h; path = include/lpclib.h; sourceTree = "<group>"; };
+		AB9D2442163319F1000709BF /* map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = map.h; path = include/map.h; sourceTree = "<group>"; };
+		AB9D2443163319F1000709BF /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = queue.h; path = include/queue.h; sourceTree = "<group>"; };
+		AB9D2444163319F1000709BF /* scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scanner.h; path = include/scanner.h; sourceTree = "<group>"; };
+		AB9D2445163319F1000709BF /* set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = set.h; path = include/set.h; sourceTree = "<group>"; };
+		AB9D2446163319F1000709BF /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stack.h; path = include/stack.h; sourceTree = "<group>"; };
+		AB9D2447163319F1000709BF /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vector.h; path = include/vector.h; sourceTree = "<group>"; };
+		AB9D244816331A31000709BF /* dice.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dice.txt; sourceTree = "<group>"; };
+		AB9D244916331A31000709BF /* lexicon.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = lexicon.dat; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB9D24221633178B000709BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9D243B163319B6000709BF /* libX11.6.dylib in Frameworks */,
+				AB9D243916331986000709BF /* liblpchoggle.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB9D241A1633178B000709BF = {
+			isa = PBXGroup;
+			children = (
+				AB9D244816331A31000709BF /* dice.txt */,
+				AB9D244916331A31000709BF /* lexicon.dat */,
+				AB9D24281633178B000709BF /* Hoggle */,
+				AB9D2432163317CD000709BF /* include */,
+				AB9D2433163317E8000709BF /* lib */,
+				AB9D24261633178B000709BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB9D24261633178B000709BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB9D24251633178B000709BF /* Hoggle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB9D24281633178B000709BF /* Hoggle */ = {
+			isa = PBXGroup;
+			children = (
+				AB996210182A011A00BD5135 /* main.cpp */,
+				AB9D24341633188D000709BF /* hgraphics.cpp */,
+				AB9D24351633188D000709BF /* hgraphics.h */,
+			);
+			path = Hoggle;
+			sourceTree = "<group>";
+		};
+		AB9D2432163317CD000709BF /* include */ = {
+			isa = PBXGroup;
+			children = (
+				AB9D2441163319F1000709BF /* lpclib.h */,
+				AB9D243C163319F1000709BF /* bst.h */,
+				AB9D243D163319F1000709BF /* cmpfn.h */,
+				AB9D243E163319F1000709BF /* foreach.h */,
+				AB9D243F163319F1000709BF /* grid.h */,
+				AB9D2440163319F1000709BF /* lexicon.h */,
+				AB9D2442163319F1000709BF /* map.h */,
+				AB9D2443163319F1000709BF /* queue.h */,
+				AB9D2444163319F1000709BF /* scanner.h */,
+				AB9D2445163319F1000709BF /* set.h */,
+				AB9D2446163319F1000709BF /* stack.h */,
+				AB9D2447163319F1000709BF /* vector.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		AB9D2433163317E8000709BF /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				AB9D24371633195E000709BF /* liblpchoggle.a */,
+				AB9D243A163319B6000709BF /* libX11.6.dylib */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB9D24241633178B000709BF /* Hoggle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB9D242F1633178B000709BF /* Build configuration list for PBXNativeTarget "Hoggle" */;
+			buildPhases = (
+				AB9D24211633178B000709BF /* Sources */,
+				AB9D24221633178B000709BF /* Frameworks */,
+				AB9D24231633178B000709BF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hoggle;
+			productName = Hoggle;
+			productReference = AB9D24251633178B000709BF /* Hoggle */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB9D241C1633178B000709BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Colin G. Schatz";
+			};
+			buildConfigurationList = AB9D241F1633178B000709BF /* Build configuration list for PBXProject "Hoggle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB9D241A1633178B000709BF;
+			productRefGroup = AB9D24261633178B000709BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB9D24241633178B000709BF /* Hoggle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB9D24211633178B000709BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9D24361633188D000709BF /* hgraphics.cpp in Sources */,
+				AB996211182A011A00BD5135 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB9D242D1633178B000709BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AB9D242E1633178B000709BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AB9D24301633178B000709BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					/usr/X11/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB9D24311633178B000709BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					/usr/X11/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB9D241F1633178B000709BF /* Build configuration list for PBXProject "Hoggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9D242D1633178B000709BF /* Debug */,
+				AB9D242E1633178B000709BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB9D242F1633178B000709BF /* Build configuration list for PBXNativeTarget "Hoggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9D24301633178B000709BF /* Debug */,
+				AB9D24311633178B000709BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB9D241C1633178B000709BF /* Project object */;
+}
