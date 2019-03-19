@@ -1,4 +1,4 @@
-# cs20-hoggle-starter
+# CS20 Hoggle Assignment
 
 This repository contains the assignments instructions and starter code for the CS20 "Hoggle" assignment.
 
